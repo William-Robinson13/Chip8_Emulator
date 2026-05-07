@@ -1,18 +1,18 @@
 # CHIP-8 Emulator
 
-A CHIP-8 emulator written in C/C++ that loads and runs classic CHIP-8 ROMs such as Tetris. [page:1]
+A CHIP-8 emulator written in C/C++ that loads and runs classic CHIP-8 ROMs such as Tetris. 
 
 ## Overview
 
-This project is a CHIP-8 emulator built from scratch as a learning project inspired by Queso Fuego’s YouTube series. It focuses on understanding how low-level systems work, how emulators map instructions to behavior, and how to build software that is testable and easy to debug. [page:1]
+This project is a CHIP-8 emulator built from scratch as a learning project inspired by Queso Fuego’s YouTube series. It focuses on understanding how low-level systems work, how emulators map instructions to behavior, and how to build software that is testable and easy to debug.
 
 ## Repository Contents
 
 The repository includes:
-- Source code files such as `chip8.cpp`, `Chip8_NoLerpModel.cpp`, and `chip8_queso.cpp`. [page:1]
-- A `Makefile` for compilation. [page:1]
-- ROM folders including `chip8-roms-master` and `chip8-test-suite-main`. [page:1]
-- Test ROMs such as `BC_test.ch8`, `IBM Logo.ch8`, and `test_opcode.ch8`. [page:1]
+- Source code files such as `chip8.cpp`, `Chip8_NoLerpModel.cpp`, and `chip8_queso.cpp`. 
+- A `Makefile` for compilation.
+- ROM folders including `chip8-roms-master` and `chip8-test-suite-main`. 
+- Test ROMs such as `BC_test.ch8`, `IBM Logo.ch8`, and `test_opcode.ch8`.
 
 ## Build
 
@@ -22,7 +22,7 @@ From the project root, compile the emulator with:
 make
 ```
 
-This uses the included `Makefile` in the repository root. [page:1]
+This uses the included `Makefile` in the repository root. 
 
 ## Run a Game
 
@@ -34,7 +34,7 @@ Example: run Tetris
 ./chip8 "./chip8-roms-master/games/Tetris [Fran Dachille, 1991].ch8"
 ```
 
-This launches the emulator and loads the Tetris ROM from the `chip8-roms-master/games` folder. [page:1]
+This launches the emulator and loads the Tetris ROM from the `chip8-roms-master/games` folder.
 
 ## Other ROMs
 
@@ -46,7 +46,7 @@ You can also try other ROMs in the repository, for example:
 ./chip8 "./test_opcode.ch8"
 ```
 
-The repository also includes additional ROM collections inside `chip8-roms-master` and test files in `chip8-test-suite-main`. [page:1]
+The repository also includes additional ROM collections inside `chip8-roms-master` and test files in `chip8-test-suite-main`.
 
 ## What I Learned
 
@@ -66,4 +66,4 @@ I will also attach a short demo video on the GitHub repository showing the emula
 
 ## Credits
 
-This project was created as a learning project inspired by Queso Fuego’s CHIP-8 emulator videos. [page:1]
+This project was created as a learning project inspired by Queso Fuego’s CHIP-8 emulator videos.
