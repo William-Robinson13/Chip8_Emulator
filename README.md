@@ -1,18 +1,19 @@
 # CHIP-8 Emulator
 
-A CHIP-8 emulator written in C/C++ that loads and runs classic CHIP-8 ROMs such as Tetris. 
+A CHIP-8 emulator written in C/C++ that runs classic games such as Tetris.
 
 ## Overview
 
-This project is a CHIP-8 emulator built from scratch as a learning project inspired by Queso Fuego’s YouTube series. It focuses on understanding how low-level systems work, how emulators map instructions to behavior, and how to build software that is testable and easy to debug.
+This project is a from-scratch CHIP-8 emulator built as a learning project inspired by Queso Fuego’s YouTube series. The goal was to understand how low-level systems work, how instructions are interpreted and executed, and how to build software that is structured clearly and easy to debug.
 
 ## Repository Contents
 
-The repository includes:
-- Source code files such as `chip8.cpp`, `Chip8_NoLerpModel.cpp`, and `chip8_queso.cpp`. 
-- A `Makefile` for compilation.
-- ROM folders including `chip8-roms-master` and `chip8-test-suite-main`. 
-- Test ROMs such as `BC_test.ch8`, `IBM Logo.ch8`, and `test_opcode.ch8`.
+This repository includes:
+- `chip8.cpp`, `Chip8_NoLerpModel.cpp`, and `chip8_queso.cpp` for emulator-related source code.
+- A `Makefile` for easier compilation.
+- `chip8-roms-master/` containing CHIP-8 game ROMs.
+- `chip8-test-suite-main/` containing test ROMs.
+- Additional ROM files such as `BC_test.ch8`, `IBM Logo.ch8`, and `test_opcode.ch8`.
 
 ## Build
 
@@ -22,23 +23,23 @@ From the project root, compile the emulator with:
 make
 ```
 
-This uses the included `Makefile` in the repository root. 
+This uses the `Makefile` included in the repository root.
 
 ## Run a Game
 
-To run a CHIP-8 game, pass the ROM path as a command-line argument.
+To run a game, pass the ROM path as a command-line argument.
 
-Example: run Tetris
+### Example: Tetris
 
 ```bash
 ./chip8 "./chip8-roms-master/games/Tetris [Fran Dachille, 1991].ch8"
 ```
 
-This launches the emulator and loads the Tetris ROM from the `chip8-roms-master/games` folder.
+This launches the emulator and runs the Tetris ROM.
 
-## Other ROMs
+## Other Example ROMs
 
-You can also try other ROMs in the repository, for example:
+You can also run other ROMs from the repository, for example:
 
 ```bash
 ./chip8 "./IBM Logo.ch8"
@@ -46,24 +47,34 @@ You can also try other ROMs in the repository, for example:
 ./chip8 "./test_opcode.ch8"
 ```
 
-The repository also includes additional ROM collections inside `chip8-roms-master` and test files in `chip8-test-suite-main`.
+## Controls
+
+This emulator uses a typical CHIP-8 keyboard mapping:
+
+```text
+CHIP-8 keypad       Keyboard
+1 2 3 C             1 2 3 4
+4 5 6 D             Q W E R
+7 8 9 E             A S D F
+A 0 B F             Z X C V
+```
 
 ## What I Learned
 
-This project taught me several practical software engineering lessons:
+This project taught me a lot about both low-level computing and practical software development.
 
-- How computer hardware concepts work from the ground up by implementing a virtual machine.
-- How to structure software in a way that makes debugging easier.
-- How to use a debugger to trace execution and understand program behavior.
-- How to use makefiles to simplify compilation and development workflows.
+- How hardware works from the absolute basics by building a simple virtual machine.
+- How to design software in a way that is easier to debug and reason about.
+- How to use a debugger to step through execution and find problems more systematically.
+- How to use makefiles to make compilation and iteration much easier.
 - How to think about user interface details so a program feels nicer, more polished, and more playable.
 
-A big lesson from this project was that small details matter. Clear structure, easier builds, readable debugging flow, and a better-looking interface all add up to a much stronger user experience.
+One of the main lessons I took from this project is that small details matter. Clean structure, easier builds, better debugging flow, and a more polished interface all add up to a much better final result.
 
 ## Demo
 
-I will also attach a short demo video on the GitHub repository showing the emulator running Tetris.
+A short demo video showing the emulator running Tetris will be attached to the repository.
 
 ## Credits
 
-This project was created as a learning project inspired by Queso Fuego’s CHIP-8 emulator videos.
+This project was built as a learning exercise inspired by Queso Fuego’s CHIP-8 emulator videos.
