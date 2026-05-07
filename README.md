@@ -73,7 +73,10 @@ One of the main lessons I took from this project is that small details matter. C
 
 ## Demo
 
-A short demo video showing the emulator running Tetris will be attached to the repository.
+A short demo of the emulator running Tetris and Space Invader:
+
+[Watch the Space Invader demo](./videos/Space_Invader.mp4)
+[Watch the Tetris demo] (./videos/Tetris.mp4) 
 
 ## Credits
 
