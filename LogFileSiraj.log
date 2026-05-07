@@ -1,0 +1,68 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250104223050
+Username: SIRAJ\siraj
+RunAs User: SIRAJ\siraj
+Configuration Name: 
+Machine: SIRAJ (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\siraj\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 22608
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./LogFileSiraj.log
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csiraj\x5cOneDrive\x5cDesktop\x5cElectronics and Computing\x5cCHIP-8 EmulatorPS C:\Users\siraj\OneDrive\Desktop\Electronics and Computing\CHIP-8 Emulator> ]633;B
+PS>make debug
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csiraj\x5cOneDrive\x5cDesktop\x5cElectronics and Computing\x5cCHIP-8 EmulatorPS C:\Users\siraj\OneDrive\Desktop\Electronics and Computing\CHIP-8 Emulator> ]633;B
+PS>./chip8 "./chip8-roms-master/games/Tetris [Fran Dachille, 1991].ch8"
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csiraj\x5cOneDrive\x5cDesktop\x5cElectronics and Computing\x5cCHIP-8 EmulatorPS C:\Users\siraj\OneDrive\Desktop\Electronics and Computing\CHIP-8 Emulator> ]633;B
+PS>cls
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csiraj\x5cOneDrive\x5cDesktop\x5cElectronics and Computing\x5cCHIP-8 EmulatorPS C:\Users\siraj\OneDrive\Desktop\Electronics and Computing\CHIP-8 Emulator> ]633;B
+PS>make debug
+g++ -Isrc/Include -Lsrc/lib -o chip8 chip8.cpp -lmingw32 -lSDL2main -lSDL2 -DDEBUG
+chip8.cpp: In function 'void Update_Screen(sdl_t, chip8_t, config_t)':
+chip8.cpp:202:50: warning: narrowing conversion of '(uint32_t)config.config_t::scale_factor' fr
+om 'uint32_t' {aka 'unsigned int'} to 'int' [-Wnarrowing]
+  202 |     SDL_Rect rect = {.x = 0, .y = 0, .w = config.scale_factor, .h = config.scale_factor
+};
+      |                                           ~~~~~~~^~~~~~~~~~~~
+chip8.cpp:202:76: warning: narrowing conversion of '(uint32_t)config.config_t::scale_factor' fr
+om 'uint32_t' {aka 'unsigned int'} to 'int' [-Wnarrowing]
+  202 |     SDL_Rect rect = {.x = 0, .y = 0, .w = config.scale_factor, .h = config.scale_facto
+};
+      |                                                                     ~~~~~~~^~~~~~~~~~~
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csiraj\x5cOneDrive\x5cDesktop\x5cElectronics and Computing\x5cCHIP-8 EmulatorPS C:\Users\siraj\OneDrive\Desktop\Electronics and Computing\CHIP-8 Emulator> ]633;B
+PS>./chip8 "./chip8-roms-master/games/Tetris [Fran Dachille, 1991].ch8"
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x23), VE (0x01) f
+rom memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction i
+f true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x23), VD (0x02) f
+rom memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x08) += NN (0x01) . Result: 0x09
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x23) += NN (0x01) . Result: 0x24
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x24) == NN (0x25), skip next instruction i
+f true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x24), VE (0x01) f
+rom memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction i
+f true .
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csiraj\x5cOneDrive\x5cDesktop\x5cElectronics and Computing\x5cCHIP-8 EmulatorPS C:\Users\siraj\OneDrive\Desktop\Electronics and Computing\CHIP-8 Emulator> ]633;B
+PS>make queso
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csiraj\x5cOneDrive\x5cDesktop\x5cElectronics and Computing\x5cCHIP-8 EmulatorPS C:\Users\siraj\OneDrive\Desktop\Electronics and Computing\CHIP-8 Emulator> ]633;B
+PS>Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250104223435
+**********************

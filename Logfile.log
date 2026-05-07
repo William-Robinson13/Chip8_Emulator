@@ -1,0 +1,53 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250104132757
+Username: SIRAJ\siraj
+RunAs User: SIRAJ\siraj
+Configuration Name: 
+Machine: SIRAJ (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\siraj\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 3028
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./Logfile.log
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csiraj\x5cOneDrive\x5cDesktop\x5cElectronics and Computing\x5cCHIP-8 EmulatorPS C:\Users\siraj\OneDrive\Desktop\Electronics and Computing\CHIP-8 Emulator> ]633;B
+PS>./chip8 "./chip8-roms-master/games/Airplane.ch8"
+Address: 0x0214, Opcode: 0xF007 Desc: Set V0 = delay timer value (0x30)
+Address: 0x0216, Opcode: 0xF118 Desc: Set sound timer value = V1 (0x01)
+Address: 0x0218, Opcode: 0x3000 Desc: Check if V0  (0x30) == NN (0x00), skip next instruction i
+f true .
+Address: 0x021A, Opcode: 0x1214 Desc: Jump to address NNN (0x0214)
+Address: 0x0214, Opcode: 0xF007 Desc: Set V0 = delay timer value (0x30)
+Address: 0x0216, Opcode: 0xF118 Desc: Set sound timer value = V1 (0x01)
+Address: 0x0218, Opcode: 0x3000 Desc: Check if V0  (0x30) == NN (0x00), skip next instruction i
+f true .
+Address: 0x021A, Opcode: 0x1214 Desc: Jump to address NNN (0x0214)
+Address: 0x0214, Opcode: 0xF007 Desc: Set V0 = delay timer value (0x30)
+Address: 0x0216, Opcode: 0xF118 Desc: Set sound timer value = V1 (0x01)
+Address: 0x0218, Opcode: 0x3000 Desc: Check if V0  (0x30) == NN (0x00), skip next instruction i
+f true .
+Address: 0x021A, Opcode: 0x1214 Desc: Jump to address NNN (0x0214)
+Address: 0x0214, Opcode: 0xF007 Desc: Set V0 = delay timer value (0x30)
+Address: 0x0216, Opcode: 0xF118 Desc: Set sound timer value = V1 (0x01)
+Address: 0x0218, Opcode: 0x3000 Desc: Check if V0  (0x30) == NN (0x00), skip next instruction i
+f true .
+Address: 0x021A, Opcode: 0x1214 Desc: Jump to address NNN (0x0214)
+Address: 0x0214, Opcode: 0xF007 Desc: Set V0 = delay timer value (0x30)
+Address: 0x0216, Opcode: 0xF118 Desc: Set sound timer value = V1 (0x01)
+Address: 0x0218, Opcode: 0x3000 Desc: Check if V0  (0x30) == NN (0x00), skip next instruction i
+f true .
+Address: 0x021A, Opcode: 0x1214 Desc: Jump to address NNN (0x0214)
+Address: 0x0214, Opcode: 0xF007 Desc: Set V0 = delay timer value (0x30)
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5csiraj\x5cOneDrive\x5cDesktop\x5cElectronics and Computing\x5cCHIP-8 EmulatorPS C:\Users\siraj\OneDrive\Desktop\Electronics and Computing\CHIP-8 Emulator> ]633;B
+PS>Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250104132822
+**********************

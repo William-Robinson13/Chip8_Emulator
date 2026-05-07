@@ -1,0 +1,682 @@
+f true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374)
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1D), V1 (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x1D) += NN (0x01) . Result: 0x1E       
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x1E) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374) 
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1E), V1 (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x1E) += NN (0x01) . Result: 0x1F 
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x1F) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374)
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1F), V1 (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x1F) += NN (0x01) . Result: 0x20 
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x20) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374)
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x20), V1 (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x20) += NN (0x01) . Result: 0x21       
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x21) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374)
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x21), V1 (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x21) += NN (0x01) . Result: 0x22       
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x22) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374)
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x22), V1 (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x22) += NN (0x01) . Result: 0x23       
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x23) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374) 
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x23), V1 (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x23) += NN (0x01) . Result: 0x24       
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x24) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374) 
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x24), V1 (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x24) += NN (0x01) . Result: 0x25       
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x25) == NN (0x25), skip next instruction if true .
+Address: 0x037C, Opcode: 0x8E10 Desc: Set Register VE = V1 (0x05)
+Address: 0x037E, Opcode: 0x8DE0 Desc: Set Register VD = VE (0x05) 
+Address: 0x0380, Opcode: 0x7EFF Desc: Set Register VE (0x05) += NN (0xFF) . Result: 0x104      
+Address: 0x0382, Opcode: 0x601B Desc: Set Register V0 to NN (0x1B)
+Address: 0x0384, Opcode: 0x6B00 Desc: Set Register VB to NN (0x00)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1B), VE (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1B), VD (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x00) += NN (0x01) . Result: 0x01       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1B) += NN (0x01) . Result: 0x1C       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1C) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386) 
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1C), VE (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1C), VD (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x01) += NN (0x01) . Result: 0x02       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1C) += NN (0x01) . Result: 0x1D       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1D) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386) 
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1D), VE (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1D), VD (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x02) += NN (0x01) . Result: 0x03       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1D) += NN (0x01) . Result: 0x1E       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1E) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1E), VE (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1E), VD (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x03) += NN (0x01) . Result: 0x04 
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1E) += NN (0x01) . Result: 0x1F       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1F) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1F), VE (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1F), VD (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x04) += NN (0x01) . Result: 0x05 
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1F) += NN (0x01) . Result: 0x20       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x20) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386) 
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x20), VE (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x20), VD (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x05) += NN (0x01) . Result: 0x06       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x20) += NN (0x01) . Result: 0x21       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x21) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386) 
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x21), VE (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390) 
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x21), VD (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x06) += NN (0x01) . Result: 0x07       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x21) += NN (0x01) . Result: 0x22       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x22) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x22), VE (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x22), VD (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x07) += NN (0x01) . Result: 0x08 
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x22) += NN (0x01) . Result: 0x23       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x23) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x23), VE (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x23), VD (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x08) += NN (0x01) . Result: 0x09       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x23) += NN (0x01) . Result: 0x24       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x24) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x24), VE (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x24), VD (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x09) += NN (0x01) . Result: 0x0A       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x24) += NN (0x01) . Result: 0x25 
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x25) == NN (0x25), skip next instruction if true .
+Address: 0x039A, Opcode: 0x4B00 Desc: Check if VB  (0x0A) != NN (0x00), skip next instruction if true .
+Address: 0x039E, Opcode: 0x7DFF Desc: Set Register VD (0x05) += NN (0xFF) . Result: 0x104      
+Address: 0x03A0, Opcode: 0x7EFF Desc: Set Register VE (0x04) += NN (0xFF) . Result: 0x103 
+Address: 0x03A2, Opcode: 0x3D01 Desc: Check if VD  (0x04) == NN (0x01), skip next instruction if true .
+Address: 0x03A4, Opcode: 0x1382 Desc: Jump to address NNN (0x0382)
+Address: 0x0382, Opcode: 0x601B Desc: Set Register V0 to NN (0x1B)
+Address: 0x0384, Opcode: 0x6B00 Desc: Set Register VB to NN (0x00)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1B), VE (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1B), VD (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x00) += NN (0x01) . Result: 0x01       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1B) += NN (0x01) . Result: 0x1C       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1C) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1C), VE (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1C), VD (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x01) += NN (0x01) . Result: 0x02       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1C) += NN (0x01) . Result: 0x1D       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1D) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1D), VE (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1D), VD (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x02) += NN (0x01) . Result: 0x03       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1D) += NN (0x01) . Result: 0x1E       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1E) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1E), VE (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1E), VD (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x03) += NN (0x01) . Result: 0x04       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1E) += NN (0x01) . Result: 0x1F       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1F) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1F), VE (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1F), VD (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x04) += NN (0x01) . Result: 0x05 
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1F) += NN (0x01) . Result: 0x20       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x20) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x20), VE (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x20), VD (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x05) += NN (0x01) . Result: 0x06       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x20) += NN (0x01) . Result: 0x21 
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x21) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x21), VE (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x21), VD (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x06) += NN (0x01) . Result: 0x07       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x21) += NN (0x01) . Result: 0x22       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x22) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x22), VE (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x22), VD (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x07) += NN (0x01) . Result: 0x08       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x22) += NN (0x01) . Result: 0x23       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x23) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386) 
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x23), VE (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x23), VD (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x08) += NN (0x01) . Result: 0x09       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x23) += NN (0x01) . Result: 0x24       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x24) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x24), VE (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x24), VD (0x04) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x09) += NN (0x01) . Result: 0x0A 
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x24) += NN (0x01) . Result: 0x25       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x25) == NN (0x25), skip next instruction if true .
+Address: 0x039A, Opcode: 0x4B00 Desc: Check if VB  (0x0A) != NN (0x00), skip next instruction if true .
+Address: 0x039E, Opcode: 0x7DFF Desc: Set Register VD (0x04) += NN (0xFF) . Result: 0x103 
+Address: 0x03A0, Opcode: 0x7EFF Desc: Set Register VE (0x03) += NN (0xFF) . Result: 0x102      
+Address: 0x03A2, Opcode: 0x3D01 Desc: Check if VD  (0x03) == NN (0x01), skip next instruction if true .
+Address: 0x03A4, Opcode: 0x1382 Desc: Jump to address NNN (0x0382)
+Address: 0x0382, Opcode: 0x601B Desc: Set Register V0 to NN (0x1B)
+Address: 0x0384, Opcode: 0x6B00 Desc: Set Register VB to NN (0x00)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1B), VE (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1B), VD (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x00) += NN (0x01) . Result: 0x01       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1B) += NN (0x01) . Result: 0x1C       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1C) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1C), VE (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1C), VD (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x01) += NN (0x01) . Result: 0x02       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1C) += NN (0x01) . Result: 0x1D 
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1D) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1D), VE (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1D), VD (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x02) += NN (0x01) . Result: 0x03       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1D) += NN (0x01) . Result: 0x1E       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1E) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386) 
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1E), VE (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1E), VD (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x03) += NN (0x01) . Result: 0x04       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1E) += NN (0x01) . Result: 0x1F       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1F) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1F), VE (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390) 
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1F), VD (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x04) += NN (0x01) . Result: 0x05 
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1F) += NN (0x01) . Result: 0x20       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x20) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x20), VE (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x20), VD (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x05) += NN (0x01) . Result: 0x06       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x20) += NN (0x01) . Result: 0x21       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x21) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386) 
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x21), VE (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x21), VD (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x06) += NN (0x01) . Result: 0x07       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x21) += NN (0x01) . Result: 0x22       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x22) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386) 
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x22), VE (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x22), VD (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x07) += NN (0x01) . Result: 0x08       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x22) += NN (0x01) . Result: 0x23       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x23) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x23), VE (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x23), VD (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x08) += NN (0x01) . Result: 0x09 
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x23) += NN (0x01) . Result: 0x24       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x24) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x24), VE (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x24), VD (0x03) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x09) += NN (0x01) . Result: 0x0A       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x24) += NN (0x01) . Result: 0x25       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x25) == NN (0x25), skip next instruction if true .
+Address: 0x039A, Opcode: 0x4B00 Desc: Check if VB  (0x0A) != NN (0x00), skip next instruction if true .
+Address: 0x039E, Opcode: 0x7DFF Desc: Set Register VD (0x03) += NN (0xFF) . Result: 0x102      
+Address: 0x03A0, Opcode: 0x7EFF Desc: Set Register VE (0x02) += NN (0xFF) . Result: 0x101      
+Address: 0x03A2, Opcode: 0x3D01 Desc: Check if VD  (0x02) == NN (0x01), skip next instruction if true .
+Address: 0x03A4, Opcode: 0x1382 Desc: Jump to address NNN (0x0382) 
+Address: 0x0382, Opcode: 0x601B Desc: Set Register V0 to NN (0x1B)
+Address: 0x0384, Opcode: 0x6B00 Desc: Set Register VB to NN (0x00)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1B), VE (0x01)ffrom memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1B), VD (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x00) += NN (0x01) . Result: 0x01       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1B) += NN (0x01) . Result: 0x1C       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1C) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1C), VE (0x01) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1C), VD (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x01) += NN (0x01) . Result: 0x02 
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1C) += NN (0x01) . Result: 0x1D       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1D) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386) 
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1D), VE (0x01) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1D), VD (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x02) += NN (0x01) . Result: 0x03       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1D) += NN (0x01) . Result: 0x1E       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1E) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1E), VE (0x01) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1E), VD (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x03) += NN (0x01) . Result: 0x04       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1E) += NN (0x01) . Result: 0x1F 
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1F) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1F), VE (0x01) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1F), VD (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x04) += NN (0x01) . Result: 0x05       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1F) += NN (0x01) . Result: 0x20       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x20) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386) 
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x20), VE (0x01) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x20), VD (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x05) += NN (0x01) . Result: 0x06       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x20) += NN (0x01) . Result: 0x21 
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x21) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x21), VE (0x01) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x21), VD (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x06) += NN (0x01) . Result: 0x07       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x21) += NN (0x01) . Result: 0x22       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x22) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x22), VE (0x01) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x22), VD (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x07) += NN (0x01) . Result: 0x08       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x22) += NN (0x01) . Result: 0x23 
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x23) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x23), VE (0x01) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x23), VD (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x08) += NN (0x01) . Result: 0x09 
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x23) += NN (0x01) . Result: 0x24       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x24) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386) 
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x24), VE (0x01) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x24), VD (0x02) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x09) += NN (0x01) . Result: 0x0A       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x24) += NN (0x01) . Result: 0x25       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x25) == NN (0x25), skip next instruction if true .
+Address: 0x039A, Opcode: 0x4B00 Desc: Check if VB  (0x0A) != NN (0x00), skip next instruction if true .
+Address: 0x039E, Opcode: 0x7DFF Desc: Set Register VD (0x02) += NN (0xFF) . Result: 0x101 
+Address: 0x03A0, Opcode: 0x7EFF Desc: Set Register VE (0x01) += NN (0xFF) . Result: 0x100      
+Address: 0x03A2, Opcode: 0x3D01 Desc: Check if VD  (0x01) == NN (0x01), skip next instruction if true .
+Address: 0x03A6, Opcode: 0x23C0 Desc: Address: 0x03C0, Opcode: 0xA700 Desc: Set I to NNN (0x0700)
+Address: 0x03C2, Opcode: 0xF255 Desc: Register dump V0 - V2 (0x07) inclusive at memory from I (0x0700)
+Address: 0x03C4, Opcode: 0xA804 Desc: Set I to NNN (0x0804)
+Address: 0x03C6, Opcode: 0xFA33 Desc: Store BCD representation of VA (0x05) at memory from I (0x0804)
+Address: 0x03C8, Opcode: 0xF265 Desc: Register load V0 - V2 (0x07) inclusive at memory from I (0x0804)
+Address: 0x03CA, Opcode: 0xF029 Desc: Set I to sprite location in memory for character V0 (0x00). Result (VX*5) = 0x00
+Address: 0x03CC, Opcode: 0x6D32 Desc: Set Register VD to NN (0x32)
+Address: 0x03CE, Opcode: 0x6E00 Desc: Set Register VE to NN (0x00)
+Address: 0x03D0, Opcode: 0xDDE5 Desc: Draw N (5) height sprite at coords VD (0x32), VE (0x00) from memory location I (0x0000)Set VF = 1 if any pixels are turned off.
+Address: 0x03D2, Opcode: 0x7D05 Desc: Set Register VD (0x32) += NN (0x05) . Result: 0x37 
+Address: 0x03D4, Opcode: 0xF129 Desc: Set I to sprite location in memory for character V1 (0x00). Result (VX*5) = 0x00
+Address: 0x03D6, Opcode: 0xDDE5 Desc: Draw N (5) height sprite at coords VD (0x37), VE (0x00) from memory location I (0x0000)Set VF = 1 if any pixels are turned off.
+Address: 0x03D8, Opcode: 0x7D05 Desc: Set Register VD (0x37) += NN (0x05) . Result: 0x3C 
+Address: 0x03DA, Opcode: 0xF229 Desc: Set I to sprite location in memory for character V2 (0x05). Result (VX*5) = 0x19
+Address: 0x03DC, Opcode: 0xDDE5 Desc: Draw N (5) height sprite at coords VD (0x3C), VE (0x00) from memory location I (0x0019)Set VF = 1 if any pixels are turned off.
+Address: 0x03DE, Opcode: 0xA700 Desc: Set I to NNN (0x0700)
+Address: 0x03E0, Opcode: 0xF265 Desc: Register load V0 - V2 (0x05) inclusive at memory from I (0x0700)
+Address: 0x03E2, Opcode: 0xA2B4 Desc: Set I to NNN (0x02B4)
+Address: 0x03E4, Opcode: 0x00EE Desc: Return from subroutine to address 0x03C0
+Address: 0x03C0, Opcode: 0xA700 Desc: Set I to NNN (0x0700)
+Address: 0x03C2, Opcode: 0xF255 Desc: Register dump V0 - V2 (0x07) inclusive at memory from I (0x0700)
+Address: 0x03C4, Opcode: 0xA804 Desc: Set I to NNN (0x0804)
+Address: 0x03C6, Opcode: 0xFA33 Desc: Store BCD representation of VA (0x05) at memory from I (0x0804)
+Address: 0x03C8, Opcode: 0xF265 Desc: Register load V0 - V2 (0x07) inclusive at memory from I (0x0804)
+Address: 0x03CA, Opcode: 0xF029 Desc: Set I to sprite location in memory for character V0 (0x00). Result (VX*5) = 0x00
+Address: 0x03CC, Opcode: 0x6D32 Desc: Set Register VD to NN (0x32)
+Address: 0x03CE, Opcode: 0x6E00 Desc: Set Register VE to NN (0x00)
+Address: 0x03D0, Opcode: 0xDDE5 Desc: Draw N (5) height sprite at coords VD (0x32), VE (0x00) from memory location I (0x0000)Set VF = 1 if any pixels are turned off.
+Address: 0x03D2, Opcode: 0x7D05 Desc: Set Register VD (0x32) += NN (0x05) . Result: 0x37 
+Address: 0x03D4, Opcode: 0xF129 Desc: Set I to sprite location in memory for character V1 (0x00). Result (VX*5) = 0x00
+Address: 0x03D6, Opcode: 0xDDE5 Desc: Draw N (5) height sprite at coords VD (0x37), VE (0x00) from memory location I (0x0000)Set VF = 1 if any pixels are turned off.
+Address: 0x03D8, Opcode: 0x7D05 Desc: Set Register VD (0x37) += NN (0x05) . Result: 0x3C 
+Address: 0x03DA, Opcode: 0xF229 Desc: Set I to sprite location in memory for character V2 (0x05). Result (VX*5) = 0x19
+Address: 0x03DC, Opcode: 0xDDE5 Desc: Draw N (5) height sprite at coords VD (0x3C), VE (0x00) from memory location I (0x0019)Set VF = 1 if any pixels are turned off.
+Address: 0x03DE, Opcode: 0xA700 Desc: Set I to NNN (0x0700)
+Address: 0x03E0, Opcode: 0xF265 Desc: Register load V0 - V2 (0x05) inclusive at memory from I (0x0700)
+Address: 0x03E2, Opcode: 0xA2B4 Desc: Set I to NNN (0x02B4)
+Address: 0x03E4, Opcode: 0x00EE Desc: Return from subroutine to address 0x03A8
+Address: 0x03A8, Opcode: 0x3F01 Desc: Check if VF  (0x01) == NN (0x01), skip next instruction if true .
+Address: 0x03AC, Opcode: 0x7A01 Desc: Set Register VA (0x05) += NN (0x01) . Result: 0x06       
+Address: 0x03AE, Opcode: 0x23C0 Desc: Address: 0x03C0, Opcode: 0xA700 Desc: Set I to NNN (0x0700)
+Address: 0x03C2, Opcode: 0xF255 Desc: Register dump V0 - V2 (0x07) inclusive at memory from I (0x0700)
+Address: 0x03C4, Opcode: 0xA804 Desc: Set I to NNN (0x0804)
+Address: 0x03C6, Opcode: 0xFA33 Desc: Store BCD representation of VA (0x06) at memory from I (0x0804)
+Address: 0x03C8, Opcode: 0xF265 Desc: Register load V0 - V2 (0x07) inclusive at memory from I (0x0804)
+Address: 0x03CA, Opcode: 0xF029 Desc: Set I to sprite location in memory for character V0 (0x00). Result (VX*5) = 0x00
+Address: 0x03CC, Opcode: 0x6D32 Desc: Set Register VD to NN (0x32)
+Address: 0x03CE, Opcode: 0x6E00 Desc: Set Register VE to NN (0x00)
+Address: 0x03D0, Opcode: 0xDDE5 Desc: Draw N (5) height sprite at coords VD (0x32), VE (0x00) from memory location I (0x0000)Set VF = 1 if any pixels are turned off.
+Address: 0x03D2, Opcode: 0x7D05 Desc: Set Register VD (0x32) += NN (0x05) . Result: 0x37       
+Address: 0x03D4, Opcode: 0xF129 Desc: Set I to sprite location in memory for character V1 (0x00). Result (VX*5) = 0x00 
+Address: 0x03D6, Opcode: 0xDDE5 Desc: Draw N (5) height sprite at coords VD (0x37), VE (0x00) from memory location I (0x0000)Set VF = 1 if any pixels are turned off.
+Address: 0x03D8, Opcode: 0x7D05 Desc: Set Register VD (0x37) += NN (0x05) . Result: 0x3C       
+Address: 0x03DA, Opcode: 0xF229 Desc: Set I to sprite location in memory for character V2 (0x06). Result (VX*5) = 0x1E 
+Address: 0x03DC, Opcode: 0xDDE5 Desc: Draw N (5) height sprite at coords VD (0x3C), VE (0x00) from memory location I (0x001E)Set VF = 1 if any pixels are turned off.
+Address: 0x03DE, Opcode: 0xA700 Desc: Set I to NNN (0x0700)
+Address: 0x03E0, Opcode: 0xF265 Desc: Register load V0 - V2 (0x06) inclusive at memory from I (0x0700)
+Address: 0x03E2, Opcode: 0xA2B4 Desc: Set I to NNN (0x02B4)
+Address: 0x03E4, Opcode: 0x00EE Desc: Return from subroutine to address 0x03C0
+Address: 0x03C0, Opcode: 0xA700 Desc: Set I to NNN (0x0700)
+Address: 0x03C2, Opcode: 0xF255 Desc: Register dump V0 - V2 (0x07) inclusive at memory from I (0x0700)
+Address: 0x03C4, Opcode: 0xA804 Desc: Set I to NNN (0x0804)
+Address: 0x03C6, Opcode: 0xFA33 Desc: Store BCD representation of VA (0x06) at memory from I (0x0804)
+Address: 0x03C8, Opcode: 0xF265 Desc: Register load V0 - V2 (0x07) inclusive at memory from I (0x0804)
+Address: 0x03CA, Opcode: 0xF029 Desc: Set I to sprite location in memory for character V0 (0x00). Result (VX*5) = 0x00
+Address: 0x03CC, Opcode: 0x6D32 Desc: Set Register VD to NN (0x32)
+Address: 0x03CE, Opcode: 0x6E00 Desc: Set Register VE to NN (0x00)
+Address: 0x03D0, Opcode: 0xDDE5 Desc: Draw N (5) height sprite at coords VD (0x32), VE (0x00) from memory location I (0x0000)Set VF = 1 if any pixels are turned off. 
+Address: 0x03D2, Opcode: 0x7D05 Desc: Set Register VD (0x32) += NN (0x05) . Result: 0x37       
+Address: 0x03D4, Opcode: 0xF129 Desc: Set I to sprite location in memory for character V1 (0x00). Result (VX*5) = 0x00
+Address: 0x03D6, Opcode: 0xDDE5 Desc: Draw N (5) height sprite at coords VD (0x37), VE (0x00) from memory location I (0x0000)Set VF = 1 if any pixels are turned off.
+Address: 0x03D8, Opcode: 0x7D05 Desc: Set Register VD (0x37) += NN (0x05) . Result: 0x3C       
+Address: 0x03DA, Opcode: 0xF229 Desc: Set I to sprite location in memory for character V2 (0x06). Result (VX*5) = 0x1E
+Address: 0x03DC, Opcode: 0xDDE5 Desc: Draw N (5) height sprite at coords VD (0x3C), VE (0x00) from memory location I (0x001E)Set VF = 1 if any pixels are turned off. 
+Address: 0x03DE, Opcode: 0xA700 Desc: Set I to NNN (0x0700)
+Address: 0x03E0, Opcode: 0xF265 Desc: Register load V0 - V2 (0x06) inclusive at memory from I (0x0700)
+Address: 0x03E2, Opcode: 0xA2B4 Desc: Set I to NNN (0x02B4)
+Address: 0x03E4, Opcode: 0x00EE Desc: Return from subroutine to address 0x03B0
+Address: 0x03B0, Opcode: 0x80A0 Desc: Set Register V0 = VA (0x06)
+Address: 0x03B2, Opcode: 0x6D07 Desc: Set Register VD to NN (0x07)
+Address: 0x03B4, Opcode: 0x80D2 Desc: Set Register V0 (0x06) &= VD (0x07). Result: 0x06        
+Address: 0x03B6, Opcode: 0x4004 Desc: Check if V0  (0x06) != NN (0x04), skip next instruction if true .
+Address: 0x03BA, Opcode: 0x4502 Desc: Check if V5  (0x0E) != NN (0x02), skip next instruction if true .
+Address: 0x03BE, Opcode: 0x00EE Desc: Return from subroutine to address 0x0356
+Address: 0x0356, Opcode: 0x91C0 Desc: Check if V1  (0x05) != VC (0x06), skip next instruction if true .
+Address: 0x035A, Opcode: 0x7101 Desc: Set Register V1 (0x05) += NN (0x01) . Result: 0x06       
+Address: 0x035C, Opcode: 0x1350 Desc: Jump to address NNN (0x0350)
+Address: 0x0350, Opcode: 0x235E Desc: Address: 0x035E, Opcode: 0x601B Desc: Set Register V0 to NN (0x1B)
+Address: 0x0360, Opcode: 0x6B00 Desc: Set Register VB to NN (0x00)
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1B), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x00) == NN (0x00), skip next instruction if true .
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1B), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x1B) += NN (0x01) . Result: 0x1C       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x1C) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362) 
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1C), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x00) == NN (0x00), skip next instruction if true .
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1C), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x1C) += NN (0x01) . Result: 0x1D       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x1D) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362)
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1D), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x00) == NN (0x00), skip next instruction if true .
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1D), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x1D) += NN (0x01) . Result: 0x1E       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x1E) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362)
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1E), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x0366, Opcode: 0x7B01 Desc: Set Register VB (0x00) += NN (0x01) . Result: 0x01       
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1E), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x1E) += NN (0x01) . Result: 0x1F       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x1F) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362) 
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1F), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x0366, Opcode: 0x7B01 Desc: Set Register VB (0x01) += NN (0x01) . Result: 0x02       
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1F), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x1F) += NN (0x01) . Result: 0x20       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x20) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362)
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x20), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x00) == NN (0x00), skip next instruction if true .
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x20), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x20) += NN (0x01) . Result: 0x21       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x21) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362) 
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x21), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x00) == NN (0x00), skip next instruction if true .
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x21), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x21) += NN (0x01) . Result: 0x22       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x22) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362)
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x22), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x00) == NN (0x00), skip next instruction if true .
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x22), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x22) += NN (0x01) . Result: 0x23       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x23) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362) 
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x23), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x00) == NN (0x00), skip next instruction if true .
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x23), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x23) += NN (0x01) . Result: 0x24       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x24) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362) 
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x24), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x00) == NN (0x00), skip next instruction if true .
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x24), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x24) += NN (0x01) . Result: 0x25       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x25) == NN (0x25), skip next instruction if true .
+Address: 0x0370, Opcode: 0x00EE Desc: Return from subroutine to address 0x035E
+Address: 0x035E, Opcode: 0x601B Desc: Set Register V0 to NN (0x1B)
+Address: 0x0360, Opcode: 0x6B00 Desc: Set Register VB to NN (0x00)
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1B), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x0366, Opcode: 0x7B01 Desc: Set Register VB (0x00) += NN (0x01) . Result: 0x01 
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1B), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x1B) += NN (0x01) . Result: 0x1C       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x1C) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362)
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1C), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x0366, Opcode: 0x7B01 Desc: Set Register VB (0x01) += NN (0x01) . Result: 0x02       
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1C), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x1C) += NN (0x01) . Result: 0x1D       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x1D) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362)
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1D), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x0366, Opcode: 0x7B01 Desc: Set Register VB (0x02) += NN (0x01) . Result: 0x03       
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1D), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x1D) += NN (0x01) . Result: 0x1E       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x1E) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362) 
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1E), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x0366, Opcode: 0x7B01 Desc: Set Register VB (0x03) += NN (0x01) . Result: 0x04       
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1E), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x1E) += NN (0x01) . Result: 0x1F       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x1F) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362)
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1F), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x0366, Opcode: 0x7B01 Desc: Set Register VB (0x04) += NN (0x01) . Result: 0x05 
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1F), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x1F) += NN (0x01) . Result: 0x20       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x20) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362) 
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x20), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x0366, Opcode: 0x7B01 Desc: Set Register VB (0x05) += NN (0x01) . Result: 0x06 
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x20), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x20) += NN (0x01) . Result: 0x21       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x21) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362)
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x21), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x0366, Opcode: 0x7B01 Desc: Set Register VB (0x06) += NN (0x01) . Result: 0x07       
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x21), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x21) += NN (0x01) . Result: 0x22       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x22) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362)
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x22), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x0366, Opcode: 0x7B01 Desc: Set Register VB (0x07) += NN (0x01) . Result: 0x08       
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x22), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x22) += NN (0x01) . Result: 0x23       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x23) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362)
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x23), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x0366, Opcode: 0x7B01 Desc: Set Register VB (0x08) += NN (0x01) . Result: 0x09       
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x23), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x23) += NN (0x01) . Result: 0x24       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x24) == NN (0x25), skip next instruction if true .
+Address: 0x036E, Opcode: 0x1362 Desc: Jump to address NNN (0x0362)
+Address: 0x0362, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x24), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0364, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x0366, Opcode: 0x7B01 Desc: Set Register VB (0x09) += NN (0x01) . Result: 0x0A 
+Address: 0x0368, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x24), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x036A, Opcode: 0x7001 Desc: Set Register V0 (0x24) += NN (0x01) . Result: 0x25       
+Address: 0x036C, Opcode: 0x3025 Desc: Check if V0  (0x25) == NN (0x25), skip next instruction if true .
+Address: 0x0370, Opcode: 0x00EE Desc: Return from subroutine to address 0x0352
+Address: 0x0352, Opcode: 0x4B0A Desc: Check if VB  (0x0A) != NN (0x0A), skip next instruction if true .
+Address: 0x0354, Opcode: 0x2372 Desc: Address: 0x0372, Opcode: 0x601B Desc: Set Register V0 to NN (0x1B)
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1B), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x1B) += NN (0x01) . Result: 0x1C       
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x1C) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374) 
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1C), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x1C) += NN (0x01) . Result: 0x1D       
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x1D) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374)
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1D), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x1D) += NN (0x01) . Result: 0x1E 
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x1E) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374)
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1E), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x1E) += NN (0x01) . Result: 0x1F       
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x1F) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374)
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x1F), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x1F) += NN (0x01) . Result: 0x20       
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x20) == NN (0x25), skip next instructioniif true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374)
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x20), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x20) += NN (0x01) . Result: 0x21       
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x21) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374)
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x21), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x21) += NN (0x01) . Result: 0x22       
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x22) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374)
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x22), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x22) += NN (0x01) . Result: 0x23 
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x23) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374)
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x23), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x23) += NN (0x01) . Result: 0x24       
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x24) == NN (0x25), skip next instruction if true .
+Address: 0x037A, Opcode: 0x1374 Desc: Jump to address NNN (0x0374)
+Address: 0x0374, Opcode: 0xD011 Desc: Draw N (1) height sprite at coords V0 (0x24), V1 (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0376, Opcode: 0x7001 Desc: Set Register V0 (0x24) += NN (0x01) . Result: 0x25       
+Address: 0x0378, Opcode: 0x3025 Desc: Check if V0  (0x25) == NN (0x25), skip next instruction if true .
+Address: 0x037C, Opcode: 0x8E10 Desc: Set Register VE = V1 (0x06)
+Address: 0x037E, Opcode: 0x8DE0 Desc: Set Register VD = VE (0x06) 
+Address: 0x0380, Opcode: 0x7EFF Desc: Set Register VE (0x06) += NN (0xFF) . Result: 0x105      
+Address: 0x0382, Opcode: 0x601B Desc: Set Register V0 to NN (0x1B)
+Address: 0x0384, Opcode: 0x6B00 Desc: Set Register VB to NN (0x00)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1B), VE (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off. 
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1B), VD (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x00) += NN (0x01) . Result: 0x01       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1B) += NN (0x01) . Result: 0x1C       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1C) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386) 
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1C), VE (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1C), VD (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x01) += NN (0x01) . Result: 0x02       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1C) += NN (0x01) . Result: 0x1D 
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1D) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386)
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1D), VE (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1D), VD (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x02) += NN (0x01) . Result: 0x03 
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1D) += NN (0x01) . Result: 0x1E       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1E) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386) 
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1E), VE (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0388, Opcode: 0x3F00 Desc: Check if VF  (0x01) == NN (0x00), skip next instruction if true .
+Address: 0x038A, Opcode: 0x1390 Desc: Jump to address NNN (0x0390)
+Address: 0x0390, Opcode: 0xD0D1 Desc: Draw N (1) height sprite at coords V0 (0x1E), VD (0x06) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+Address: 0x0392, Opcode: 0x7B01 Desc: Set Register VB (0x03) += NN (0x01) . Result: 0x04       
+Address: 0x0394, Opcode: 0x7001 Desc: Set Register V0 (0x1E) += NN (0x01) . Result: 0x1F       
+Address: 0x0396, Opcode: 0x3025 Desc: Check if V0  (0x1F) == NN (0x25), skip next instruction if true .
+Address: 0x0398, Opcode: 0x1386 Desc: Jump to address NNN (0x0386) 
+Address: 0x0386, Opcode: 0xD0E1 Desc: Draw N (1) height sprite at coords V0 (0x1F), VE (0x05) from memory location I (0x02B4)Set VF = 1 if any pixels are turned off.
+PS C:\Users\siraj\OneDrive\Desktop\Electronics and Computing\CHIP-8 Emulator> 
